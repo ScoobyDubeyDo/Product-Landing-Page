@@ -10,8 +10,20 @@ body {
   font-family: "Comfortaa", cursive;
 }
 
-nav {
-  float: right;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 70px;
 }
 
 #header-img {
@@ -19,12 +31,14 @@ nav {
 }
 
 #center {
-  width: 50%;
+  width: 60%;
+  max-width: ;
   margin: 0 auto;
   border: black 5px solid;
 }
 
 input[type="submit"] {
+  background: rgb(15, 143, 133);
 }
 
 form {
@@ -33,4 +47,8 @@ form {
 
 form h1 {
   padding: 150px;
+}
+
+i {
+  color: rgb(15, 143, 133);
 }
