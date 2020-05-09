@@ -27,26 +27,27 @@ header {
   background: white;
 }
 
-#nav-bar {
+.nav-bar {
   display: flex;
   list-style: none;
   justify-content: flex-end;
 }
 
-nav li {
+header li {
   margin: 0 4rem;
 }
 
-.nav-link {
+.nav-link:link {
   text-decoration: none;
   font-weight: 600;
-}
-
-.nav-link:active {
-  color: inherit;
+  color: black;
 }
 
 .nav-link:visited {
+  color: inherit;
+}
+
+.nav-link:active {
   color: inherit;
 }
 
@@ -68,9 +69,8 @@ nav li {
 
 #box {
   width: 95%;
-  max-width: 55rem;
+  max-width: 63rem;
   margin: 5.6rem auto;
-  /* border: black 5px solid; */
 }
 
 /* FORM */
@@ -89,7 +89,8 @@ input[type="email"] {
   height: 1.7rem;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button {
   border: none;
   background: rgb(15, 143, 133);
   color: white;
@@ -99,16 +100,14 @@ input[type="submit"] {
   padding: 0.5em 1em;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+button:hover {
   background: rgb(32, 184, 171);
+  transition: background-color 1s;
 }
 /* END OF FORM */
 
 /* Features */
-
-/* #Features {
-  border: red solid 2px;
-} */
 
 .Features-box {
   margin: 5em 0 0 0;
@@ -122,6 +121,8 @@ input[type="submit"]:hover {
 
 i {
   color: rgb(15, 143, 133);
+  padding: 0;
+  margin: 0 0 0 2em;
 }
 
 /* END OF FEATURES */
@@ -131,7 +132,7 @@ i {
 
 #video {
   width: 100%;
-  max-width: 55rem;
+  max-width: 100%;
   margin: 5em 0;
   text-align: center;
 }
@@ -144,3 +145,62 @@ iframe {
 
 /* end of How It Works
  */
+
+/*  Pricing */
+
+#Pricing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  border: black solid 1px;
+  border-radius: 5px;
+  text-align: center;
+  width: 20rem;
+}
+
+.product h2 {
+  font-size: larger;
+  background: rgb(32, 184, 171);
+  color: white;
+  padding: 0.6em 0;
+}
+
+.product h1 {
+  padding: 0.9em 0;
+  font-size: x-large;
+}
+
+.product p {
+  padding: 0.5em 0;
+}
+
+.product button {
+  margin: 1em 0;
+}
+
+/* ***************
+END OF MAIN
+**************** */
+
+/* FOOTER STARTS */
+
+footer {
+  background: rgb(32, 184, 171);
+  width: 95%;
+  max-width: 63rem;
+  margin: 5.6rem auto 0 auto;
+  padding: 1em 0;
+}
+
+span {
+  font-size: small;
+  margin: 0.3em 0.8em 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer li {
+  margin: 0 1em 0 0;
+}
