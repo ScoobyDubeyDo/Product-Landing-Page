@@ -10,45 +10,137 @@ body {
   font-family: "Comfortaa", cursive;
 }
 
+/* nav links
+     and
+    header 
+*/
+
 header {
+  position: fixed;
+  top: 0;
+  height: max-content;
+  max-height: 5.6rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: white;
 }
 
-nav ul {
+#nav-bar {
   display: flex;
   list-style: none;
   justify-content: flex-end;
 }
 
 nav li {
-  margin: 0 70px;
+  margin: 0 4rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-link:active {
+  color: inherit;
+}
+
+.nav-link:visited {
+  color: inherit;
 }
 
 #header-img {
   width: 280px;
+  margin: 0 0 0 4rem;
 }
 
-#center {
-  width: 60%;
-  max-width: ;
-  margin: 0 auto;
-  border: black 5px solid;
+/* 
+     END OF
+   nav links
+     and
+    header 
+*/
+
+/*************
+      main 
+ ****************** */
+
+#box {
+  width: 95%;
+  max-width: 55rem;
+  margin: 5.6rem auto;
+  /* border: black 5px solid; */
 }
 
-input[type="submit"] {
-  background: rgb(15, 143, 133);
-}
+/* FORM */
 
 form {
   text-align: center;
 }
 
 form h1 {
-  padding: 150px;
+  font-size: x-large;
+}
+
+input[type="email"] {
+  font-family: inherit;
+  width: 17rem;
+  height: 1.7rem;
+}
+
+input[type="submit"] {
+  border: none;
+  background: rgb(15, 143, 133);
+  color: white;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: large;
+  padding: 0.5em 1em;
+}
+
+input[type="submit"]:hover {
+  background: rgb(32, 184, 171);
+}
+/* END OF FORM */
+
+/* Features */
+
+/* #Features {
+  border: red solid 2px;
+} */
+
+.Features-box {
+  margin: 5em 0 0 0;
+  display: flex;
+}
+
+.Features-box div {
+  width: 47em;
+  margin: 0 0 0 auto;
 }
 
 i {
   color: rgb(15, 143, 133);
 }
+
+/* END OF FEATURES */
+
+/* How It Works
+ */
+
+#video {
+  width: 100%;
+  max-width: 55rem;
+  margin: 5em 0;
+  text-align: center;
+}
+
+iframe {
+  border: none;
+  max-width: 35em;
+  width: 100%;
+}
+
+/* end of How It Works
+ */
