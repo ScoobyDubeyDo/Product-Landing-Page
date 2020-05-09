@@ -8,6 +8,11 @@
 
 body {
   font-family: "Comfortaa", cursive;
+  background: #c8d5b9;
+}
+
+p {
+  font-size: 0.87rem;
 }
 
 /* nav links
@@ -24,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
+  background: #c8d5b9;
 }
 
 .nav-bar {
@@ -70,7 +75,7 @@ header li {
 #box {
   width: 95%;
   max-width: 63rem;
-  margin: 5.6rem auto;
+  margin: 5.6rem auto 3rem auto;
 }
 
 /* FORM */
@@ -102,7 +107,7 @@ button {
 
 input[type="submit"]:hover,
 button:hover {
-  background: rgb(32, 184, 171);
+  background: #2ea59d;
   transition: background-color 1s;
 }
 /* END OF FORM */
@@ -162,7 +167,7 @@ iframe {
 
 .product h2 {
   font-size: larger;
-  background: rgb(32, 184, 171);
+  background: #2ea59d;
   color: white;
   padding: 0.6em 0;
 }
@@ -173,7 +178,7 @@ iframe {
 }
 
 .product p {
-  padding: 0.5em 0;
+  padding: 0.3em 0;
 }
 
 .product button {
@@ -187,10 +192,10 @@ END OF MAIN
 /* FOOTER STARTS */
 
 footer {
-  background: rgb(32, 184, 171);
+  background: #2ea59d;
   width: 95%;
   max-width: 63rem;
-  margin: 5.6rem auto 0 auto;
+  margin: 0 auto;
   padding: 1em 0;
 }
 
