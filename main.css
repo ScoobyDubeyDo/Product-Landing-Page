@@ -32,7 +32,8 @@ header {
   background: #c8d5b9;
 }
 
-.nav-bar {
+.nav-bar,
+footer ul {
   display: flex;
   list-style: none;
   justify-content: flex-end;
@@ -119,7 +120,7 @@ button:hover {
   display: flex;
 }
 
-.Features-box div {
+.Features-boxs {
   width: 47em;
   margin: 0 0 0 auto;
 }

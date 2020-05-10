@@ -1,0 +1,48 @@
+@media (min-width: 320px) and (max-width: 480px) /* Mobile */ {
+  header {
+    flex-direction: column;
+    /* border: red solid 3px; */
+    max-height: max-content;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    /* border: blue solid 3px; */
+  }
+
+  header li {
+    margin: 0.4em 0;
+    text-align: center;
+  }
+
+  #header-img {
+    margin: 0.5rem 0;
+  }
+
+  #box {
+    margin: 12rem auto 3rem auto;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .Features-boxs {
+    text-align: center;
+  }
+
+  .Features-boxs p {
+    margin: 0.3em 0 0 0;
+  }
+
+  #Pricing {
+    flex-direction: column;
+  }
+
+  .product {
+    margin: 0.3em auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) /* Tablet */ {
+}
